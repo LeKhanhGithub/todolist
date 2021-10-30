@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1> Wellcome to reactjs</h1>
+      <h1> Wellcome to reactjs the second project</h1>
       <Todofrom onsubmit = {handleOnsubmit}/>
       <h2> Below is your to do list</h2>
       <Todolist todos={todolist} onTodoClick = {handleClick} />
