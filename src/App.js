@@ -30,7 +30,7 @@ function App() {
 
 
   return (
-    // tao nhanh moi
+    // tao nhanh moi roi push len
     <div className="App">
       <h1> Wellcome to reactjs the second project</h1>
       <Todofrom onsubmit = {handleOnsubmit}/>
